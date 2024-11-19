@@ -38,7 +38,7 @@
   
   /* Estilos para la sección hero */
   .hero {
-    background: url('https://via.placeholder.com/1500x700') no-repeat center center/cover;
+    background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -89,12 +89,14 @@
     width: 30%;
     padding: 20px;
     text-align: center;
+    
   }
   
   .producto img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
+    
   }
   
   .producto h3 {
@@ -118,6 +120,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
   }
   
   .oferta-item {
@@ -126,7 +129,9 @@
   }
   
   .oferta-item img {
-    width: 100%;
+    
+    width: 300px;
+    height: 300px;
     border-radius: 8px;
     margin-bottom: 15px;
   }
