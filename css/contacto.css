@@ -1,0 +1,178 @@
+/* Estilos de la pagina */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #555;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contact-details {
+    flex: 1;
+    margin-right: 20px;
+}
+.contact-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.contact-details p {
+    margin-bottom: 10px;
+}
+.contact-details a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+}
+.contact-details .social-icons a {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #555;
+}
+form {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #f90;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+form button:hover {
+    background: #d87c00;
+}
+.locations {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.location {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.location:last-child {
+    margin-right: 0;
+}
+.location img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.location h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+.location p {
+    margin-top: 5px;
+    color: #666;
+}
+/* Estilos para la barra de navegación */
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+    /* Estilo para el pie de página */
+    footer {
+        background-color: #a39a8d;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+      }
+      
+      .footer-content {
+        font-family: "Merriweather";
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      .footer-info, .footer-contact {
+        width: 30%;
+      }
+      
+      .footer-info h3, .footer-contact h4 {
+        margin-bottom: 10px;
+      }
+      
+      .footer-contact ul {
+        list-style: none;
+      }
+      
+      .footer-contact ul li {
+        margin-bottom: 8px;
+      }
+      
+      copyright {
+        margin-top: 20px;
+        font-size: 14px;
+      }
+      
