@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+}
+
 /* Reset de márgenes y padding */
 * {
     margin: 0;
@@ -55,7 +62,7 @@
   }
   
   .btn {
-    background-color: #f39c12;
+    background-color: #c0ae94;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -65,7 +72,7 @@
   }
   
   .btn:hover {
-    background-color: #e67e22;
+    background-color: #978b7a;
   }
   
   /* Estilo para las categorías de productos */
@@ -83,6 +90,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
+
   }
   
   .producto {
@@ -90,13 +99,15 @@
     padding: 20px;
     text-align: center;
     
+    
   }
   
   .producto img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
-    
+    width: 300px;
+    height: 300px;
   }
   
   .producto h3 {
@@ -135,16 +146,18 @@
     border-radius: 8px;
     margin-bottom: 15px;
   }
-  
+  /*PARA CARRUSEL DE IMAGENES: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
   /* Estilo para el pie de página */
   footer {
-    background-color: #333;
+    background-color: #a39a8d;
     color: white;
     padding: 40px 20px;
     text-align: center;
   }
   
   .footer-content {
+    font-family: "Merriweather";
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -153,7 +166,7 @@
   }
   
   .footer-info, .footer-contact {
-    width: 45%;
+    width: 30%;
   }
   
   .footer-info h3, .footer-contact h4 {
