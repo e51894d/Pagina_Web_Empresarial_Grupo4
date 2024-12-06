@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif; 
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+  }
+
+    
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  
+  
+.sobre-nosotros {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .miembro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+  .texto {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .texto h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .texto p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .imagen {
+    flex: 1;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .imagen img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  /* Alternar posiciones */
+  .miembro.reverse {
+    flex-direction: row-reverse;
+  }
+
+  /* Colores alternos */
+.miembro:nth-child(odd) {
+    background-color: #f4f4f4; 
+  }
+  
+  .miembro:nth-child(even) {
+    background-color: #eaeaea; 
+  }
+  
+  /*  responsivos */
+  @media (max-width: 768px) {
+    .miembro {
+      flex-direction: column;
+      text-align: center;
+    }
+    .miembro.reverse {
+      flex-direction: column;
+    }
+    .imagen img {
+      width: 100%;
+    }
+  }
+  
+  
+  footer {
+    background-color: #a39a8d;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    font-family: "Merriweather";
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-info, .footer-contact {
+    width: 30%;
+  }
+  
+  .footer-info h3, .footer-contact h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact ul {
+    list-style: none;
+  }
+  
+  .footer-contact ul li {
+    margin-bottom: 8px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
