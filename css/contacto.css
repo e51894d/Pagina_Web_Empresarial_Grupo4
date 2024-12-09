@@ -15,6 +15,9 @@ header h1 {
     font-size: 2.5rem;
     color: #555;
 }
+h1{
+  text-align: center;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -54,14 +57,21 @@ form {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    
+}
+form h2{
+  text-align: center;
 }
 form input, form select, form textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 15px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1rem;
+}
+textarea{
+  resize: none;
 }
 form button {
     width: 100%;
@@ -137,42 +147,49 @@ header {
     color: white;
     font-size: 16px;
   }
-    /* Estilo para el pie de página */
-    footer {
-        background-color: #a39a8d;
-        color: white;
-        padding: 40px 20px;
-        text-align: center;
-      }
+  footer {
+    background-color: #a39a8d;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
       
-      .footer-content {
-        font-family: "Merriweather";
-        font-size: 15px;
-        display: flex;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
+  .footer-content {
+    font-family: "Merriweather";
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
       
-      .footer-info, .footer-contact {
-        width: 30%;
-      }
+  .footer-info, .footer-contact {
+    width: 30%;
+  }
       
-      .footer-info h3, .footer-contact h4 {
-        margin-bottom: 10px;
-      }
+  .footer-info h3, .footer-contact h4 {
+    margin-bottom: 10px;
+    }
       
-      .footer-contact ul {
-        list-style: none;
-      }
+  .footer-contact ul {
+    list-style: none;
+  }
       
-      .footer-contact ul li {
-        margin-bottom: 8px;
-      }
+  .footer-contact ul li {
+    margin-bottom: 8px;
+  }
       
-      copyright {
-        margin-top: 20px;
-        font-size: 14px;
-      }
+  copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .politica{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .politica input{
+    width: 20px;
+  }
       
