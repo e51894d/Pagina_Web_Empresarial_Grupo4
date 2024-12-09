@@ -1,0 +1,138 @@
+  /* Estilo para la barra de navegación */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  .hero {
+    background: url() no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #c0ae94;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #978b7a;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .offers-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .offers-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .offer-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .offer-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .offer-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  .offer-item .old-price {
+    color: #888;
+    font-size: 1rem;
+    text-decoration: line-through;
+  }
+  
+  .offer-item .new-price {
+    color: #e63946;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .offer-item button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .offer-item button:hover {
+    background-color: #555;
+  }
+  
