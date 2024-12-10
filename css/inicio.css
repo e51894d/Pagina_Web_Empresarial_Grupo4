@@ -108,6 +108,11 @@
     margin-bottom: 15px;
     width: 300px;
     height: 300px;
+    transition: transform 0.5s ease;
+  }
+
+  .producto:hover img {
+    transform: scale(1.1); /* Hace la animacion del zoom */
   }
   
   .producto h3 {
@@ -145,6 +150,11 @@
     height: 300px;
     border-radius: 8px;
     margin-bottom: 15px;
+    transition: transform 0.5s ease;
+  }
+
+  .oferta-item:hover img {
+    transform: scale(1.1); /* Hace la animacion del zoom */
   }
   /*PARA CARRUSEL DE IMAGENES: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
   /* Estilo para el pie de página */
