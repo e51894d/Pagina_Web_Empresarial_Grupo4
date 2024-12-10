@@ -1,200 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-.merriweather-light {
-  font-family: "Merriweather", serif;
-  font-style: normal;
-}
-
 /* Reset de márgenes y padding */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Estilo para la barra de navegación */
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para la barra de navegación */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* Estilos para la sección hero */
+.hero {
+  background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #c0ae94;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #978b7a;
+}
+
+/* Estilo para las categorías de productos */
+.productos {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.productos .section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.productos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  flex: 1 1 calc(33% - 40px);
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.producto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.5s ease;
+}
+
+.producto:hover img {
+  transform: scale(1.1); /* Hace la animación del zoom */
+}
+
+.producto h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las ofertas */
+.ofertas {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.ofertas .section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.oferta-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.oferta-item {
+  flex: 1 1 calc(50% - 40px);
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.oferta-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.5s ease;
+}
+
+.oferta-item:hover img {
+  transform: scale(1.1); /* Hace la animación del zoom */
+}
+
+/* Pie de página */
+footer {
+  background-color: #a39a8d;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info,
+.footer-contact {
+  flex: 1 1 calc(50% - 20px);
+}
+
+.footer-contact ul {
+  list-style: none;
+}
+
+.footer-contact ul li {
+  margin-bottom: 8px;
+}
+
+/* Media Queries para adaptabilidad */
+@media (max-width: 768px) {
   nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    flex-wrap: wrap;
   }
-  
+
   .nav-links {
-    list-style: none;
-    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .nav-links li {
-    margin: 0 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-  }
-  
-  /* Estilos para la sección hero */
-  .hero {
-    background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-  }
-  
+
   .hero-content h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 2rem;
   }
-  
+
   .hero-content p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    background-color: #c0ae94;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #978b7a;
-  }
-  
-  /* Estilo para las categorías de productos */
-  .productos {
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  .productos .section-title {
-    font-size: 32px;
-    margin-bottom: 40px;
-  }
-  
-  .productos-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-
-  }
-  
-  .producto {
-    width: 30%;
-    padding: 20px;
-    text-align: center;
-    
-    
-  }
-  
-  .producto img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    width: 300px;
-    height: 300px;
-    transition: transform 0.5s ease;
+    font-size: 0.9rem;
   }
 
-  .producto:hover img {
-    transform: scale(1.1); /* Hace la animacion del zoom */
-  }
-  
-  .producto h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  /* Estilos para las ofertas */
-  .ofertas {
-    background-color: #f4f4f4;
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  .ofertas .section-title {
-    font-size: 32px;
-    margin-bottom: 40px;
-  }
-  
+  .productos-container,
   .oferta-items {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    align-items: center;
   }
-  
+
+  .producto,
   .oferta-item {
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  
-  .oferta-item img {
-    
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    transition: transform 0.5s ease;
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 
-  .oferta-item:hover img {
-    transform: scale(1.1); /* Hace la animacion del zoom */
-  }
-  /*PARA CARRUSEL DE IMAGENES: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
-  /* Estilo para el pie de página */
-  footer {
-    background-color: #a39a8d;
-    color: white;
-    padding: 40px 20px;
+  .footer-info,
+  .footer-contact {
+    flex: 1 1 100%;
     text-align: center;
   }
-  
-  .footer-content {
-    font-family: "Merriweather";
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .footer-info, .footer-contact {
-    width: 30%;
-  }
-  
-  .footer-info h3, .footer-contact h4 {
-    margin-bottom: 10px;
-  }
-  
-  .footer-contact ul {
-    list-style: none;
-  }
-  
-  .footer-contact ul li {
-    margin-bottom: 8px;
-  }
-  
-  copyright {
-    margin-top: 20px;
-    font-size: 14px;
-  }
-
-  
-  
+}
