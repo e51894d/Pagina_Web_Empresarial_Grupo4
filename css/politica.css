@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'Agraham';
-  src: url('../fonts/agraham.personal-use.otf');
-}
 /* Reset de márgenes y padding */
 * {
   margin: 0;
@@ -11,14 +7,9 @@
 
 /* Estilo para la barra de navegación */
 header {
-  background-color: #333;
+  background-color: #363535;
   color: white;
   padding: 10px 0;
-}
-
-h2 {
-
-  font-family: "Agraham";
 }
 
 nav {
@@ -156,6 +147,16 @@ nav {
   transform: scale(1.1); /* Hace la animación del zoom */
 }
 
+ul {
+  list-style-type: none; /* Elimina los puntos */
+  padding-left: 0; /* Elimina el espacio extra a la izquierda */
+}
+
+/* Si quieres agregar algún margen entre los elementos de la lista */
+ul li {
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
 /* Pie de página */
 footer {
   background-color: #a39a8d;
@@ -203,7 +204,6 @@ footer {
 
   .hero-content h2 {
     font-size: 2rem;
-  
   }
 
   .hero-content p {
