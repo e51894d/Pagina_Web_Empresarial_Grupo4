@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Agraham';
-  src: url('../fonts/agraham.personal-use.otf');
+  font-family: 'Cheva';
+  src: url('../fonts/ChevadisplayRegular-1G5ve.otf');
 }
 /* Reset de márgenes y padding */
 * {
@@ -16,10 +16,6 @@ header {
   padding: 10px 0;
 }
 
-h2 {
-
-  font-family: "Agraham";
-}
 
 nav {
   display: flex;
@@ -54,8 +50,9 @@ nav {
 }
 
 .hero-content h2 {
-  font-size: 2.5rem;
+  font-size: 7rem;
   margin-bottom: 20px;
+  font-family: "Cheva";
 }
 
 .hero-content p {
