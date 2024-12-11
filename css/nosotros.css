@@ -53,6 +53,8 @@
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    
+
   }
   
   .section-title {
@@ -166,3 +168,14 @@
     font-size: 14px;
   }
   
+
+  .contenido p {
+     float: right;
+     font-size: 18px; 
+     color: #333;
+      margin: 20px;
+      margin-top: 150px;
+      width: 300px;
+
+    
+    }   
