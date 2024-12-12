@@ -1,83 +1,72 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /*Elimina márgenes predeterminados*/
+  padding: 0; /*Elimina rellenos predeterminados*/
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-@font-face {
-  font-family: 'Cheva';
-  src: url('../fonts/ChevadisplayRegular-1G5ve.otf');
-}
-
 
   header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0; 
+    background-color: #333; /*Fondo de la cabecera*/
+    color: white; /*Color de la letra de la cabecera*/
+    padding: 10px ; /* altura de la cabecera*/
 
   }
 
     
   nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    display: flex; /*Disposición en fila*/
+    justify-content: space-between; 
+    align-items: center; /* Centra verticalmente */
+    max-width: 1200px; /*Limíta el ancho del contenedor (centrando los elementos de la cabecera)*/
+    margin: 0 auto; /*Centra horizontalmente*/
   }
   
+  
   .nav-links {
-    list-style: none;
-    display: flex;
-    
+    list-style: none; /*Elimina los estilos de lista predeterminados (quita el punto a cada uno) */
+    display: flex; /*Disposición en fila*/
+
   }
   
   .nav-links li {
-    margin: 0 15px;
+    margin: 0 15px; /*Espaciado horizontal entre los elementos */
   }
   
   .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
+    text-decoration: none; /*Elimina el subrayado */
+    color: white; /*Color de los enlaces*/
+    font-size: 16px; /*Tamaño de la letra*/
     
   }
   
   
   
 .sobre-nosotros {
-    padding: 60px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
+    padding: 60px ; /*Espaciado vertical */
+    max-width: 1200px; /*Ancho máx de los contenedores*/
+    margin: 0 auto; /*Centra horizontalmente el contenedor en la pág*/
     
 
   }
   
   .section-title {
-    font-size: 32px;
-    margin-bottom: 40px;
+    font-size: 32px; /*Tamaño del título*/
+    margin-bottom: 30px; /*Margen entre el título y el contenedor*/
+    text-align: center; /*Centra el texto */
   }
   
   .miembro {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    gap: 20px;
+    display: flex; /*Disposición en fila de los elementos*/
+    align-items: center; /*Centra verticalmente*/
+    margin-bottom: 40px; /*Margen entre cada contenedor*/
   }
   
-  .texto {
-    flex: 1;
-    text-align: center;
-  }
+ 
   
   .texto h3 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /*Margen entre el título y el texto*/
     color: #444;
+    text-align: center; /*Centra el texto del título*/
+
   }
   
   .texto p {
@@ -93,6 +82,7 @@
     text-align: center;
     margin-top: 20px; 
     margin-bottom: 20px; 
+   
   }
   
   .imagen img {
@@ -103,15 +93,15 @@
   
   /* Alternar posiciones */
   .miembro.reverse {
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /*Invierte la dirección para que las imagenes salgan en posiciones alternas*/ 
   }
 
   /* Colores alternos */
-.miembro:nth-child(odd) {
+.miembro:nth-child(odd) {  /* filas Impares*/
     background-color: #f4f4f4; 
   }
   
-  .miembro:nth-child(even) {
+  .miembro:nth-child(even) { /*Filas pares*/
     background-color: #eaeaea; 
   }
   
@@ -141,41 +131,33 @@
     font-family: "Merriweather";
     font-size: 15px;
     display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    justify-content: space-between; /*Espacio entre Contacto y decoración hogar*/
+    max-width: 1200px; /*Ancho max para que esté más centrado*/
+    margin: 0 auto; /*Centra horizontalmente el contenedor*/
   }
   
   .footer-info, .footer-contact {
-    width: 30%;
-  }
-  
-  .footer-info h3, .footer-contact h4 {
-    margin-bottom: 10px;
-  }
+    width: 30%; /*Ancho para que ocupe menos en horizontal*/
+  } 
+
   
   .footer-contact ul {
-    list-style: none;
+    list-style: none;  /*Quita los puntos */
   }
   
-  .footer-contact ul li {
-    margin-bottom: 8px;
-  }
-  
-  .copyright {
+  .copyright {  
     margin-top: 20px;
     font-size: 14px;
   }
   
-
+  /*Texto explicación de como se ha hecho el trabajo*/
   .contenido p {
-     float: right;
+     float: right;  /*Posiciona el párrafo a la derecha*/
      font-size: 18px; 
      color: #333;
       margin: 20px;
-      margin-top: 150px;
-      width: 300px;
+      margin-top: 150px;  /*Margen top*/
+      width: 300px;  /*Ancho del texto*/
 
     
     }   
