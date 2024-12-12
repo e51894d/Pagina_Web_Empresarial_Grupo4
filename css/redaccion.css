@@ -1,0 +1,98 @@
+
+.contentenido {
+    margin-left: 33%;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+*{
+    margin: 0; /*Elimina márgenes predeterminados*/
+    padding: 0; /*Elimina rellenos predeterminados*/
+    box-sizing: border-box;
+  
+  }
+  
+    header {
+      background-color: #333; /*Fondo de la cabecera*/
+      color: white; /*Color de la letra de la cabecera*/
+      padding: 10px 0; /* altura de la cabecera*/
+  
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+      
+      }
+      
+      .nav-links {
+        list-style: none;
+        display: flex;
+      
+      }
+      
+      .nav-links li {
+        margin: 0 15px;
+      }
+      
+      .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+      }
+  
+      footer {
+        background-color: #a39a8d;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+      
+      .footer-content {
+        font-family: "Merriweather";
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between; /*Espacio entre Contacto y decoración hogar*/
+        max-width: 1200px; /*Ancho max para que esté más centrado*/
+        margin: 0 auto; /*Centra horizontalmente el contenedor*/
+        
+
+      }
+      
+      .footer-info, .footer-contact {
+        width: 30%; /*Ancho para que ocupe menos en horizontal*/
+      } 
+    
+      
+      .footer-contact ul {
+        list-style: none;  /*Quita los puntos */
+      }
+      
+      .copyright {  
+        margin-top: 20px;
+        font-size: 14px;
+      }
+      
+     
+    
+    
+        
+    .logo  {
+      width: 40px;
+      height: 500px;
+      height: auto; /* Mantiene la proporción */
+      margin: 0; /* Elimina márgenes innecesarios */
+    
+    }
