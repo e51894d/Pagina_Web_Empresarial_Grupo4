@@ -1,5 +1,5 @@
 /*Estilos para un contenedor de contenido centralizado*/
-.contentenido {
+.contenido {
   margin-left: 33%; /*Mueve el contenedor hacia la derecha, dejando un 33% de espacio a la izquierda*/
   margin-top: 50px; /*Añade un margen en la parte superior*/
   text-align: center; /*Centra el texto dentro del contenedor*/
@@ -66,8 +66,8 @@ footer {
 .footer-content {
   font-family: "Merriweather"; /*Fuente serif para el pie de página*/
   font-size: 15px; /*Tamaño de fuente*/
-  display: flex; /*Usa flexbox para distribuir los elementos*/
-  justify-content: space-between; /*Distribuye espacio entre los elementos*/
+  display: fixed; /*Usa flexbox para distribuir los elementos*/
+  justify-content: center; /*Distribuye espacio entre los elementos*/
   max-width: 1200px; /*Ancho máximo*/
   margin: 0 auto; /*Centra horizontalmente el contenedor*/
 }
@@ -80,6 +80,7 @@ footer {
 /*Estilos para las listas dentro de la sección de contacto*/
 .footer-contact ul {
   list-style: none; /*Elimina los puntos de la lista*/
+
 }
 
 /*Estilo para el texto de derechos de autor*/

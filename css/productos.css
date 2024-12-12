@@ -190,6 +190,11 @@ footer {
   color: white; /*Texto blanco*/
   padding: 40px 20px; /*Relleno alrededor del pie de página*/
   text-align: center; /*Centra el texto*/
+  
+}
+
+ul {
+  list-style: none;
 }
 
 /*Estilos para el logo*/
