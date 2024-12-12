@@ -169,10 +169,3 @@
 
 
     
-.logo  {
-  width: 40px;
-  height: 40px;
-  height: auto; /* Mantiene la proporción */
-  margin: 0; /* Elimina márgenes innecesarios */
-
-}
