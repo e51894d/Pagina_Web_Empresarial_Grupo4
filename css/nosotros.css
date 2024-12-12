@@ -159,20 +159,36 @@
      display: flex;
       justify-content: center; 
       align-items: center; 
-
-      
-      
-    
-
-    
-    }   
-
-
-    
+    }    
 .logo  {
   width: 40px;
   height: 500px;
   height: auto; /* Mantiene la proporción */
   margin: 0; /* Elimina márgenes innecesarios */
 
+}
+
+/* Estilo para el botón */
+.btn-trabajo {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f0ad48; /* Azul */
+  border: none;
+  border-radius: 30px; /* Bordes redondeados */
+  text-align: center;
+  text-decoration: none; /* Quitar subrayado */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-trabajo:hover {
+  background-color: #ffa600; /* Cambio de color al pasar el mouse */
+  transform: translateY(-5px); /* Efecto de elevar el botón */
+}
+
+.btn-trabajo:active {
+  background-color: #1c6d98; /* Color al hacer clic */
+  transform: translateY(0); /* Revertir el efecto al hacer clic */
 }

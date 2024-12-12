@@ -3,53 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrito de la Compra</title>
     <link rel="stylesheet" href="../css/comprado.css">
-</head>
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
+  </head>
 <body>
     <header>
         <nav>
-          <img class="logo" src="../images/logo.png" alt="Logo">
-          <div>
-            <h1>Decora tu hogar con nosotros</h1>
-          </div>
-          <ul class="nav-links">
-            <li><a href="./inicio.html">Inicio</a></li>
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
-            <li><a href="./nosotros.html">Sobre nosotros</a></li> 
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./politica.html">Política de Privacidad y Aviso Legal</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section class="ofertas">
-        <br>
-        <div class="oferta-items">
-          <div class="oferta-item">
-            <h3>¡Acabas de realizar una compra con nosotros!</h3>
-            <p>Te enviaremos pronto tus productos 😃</p>
-            <br>
-            <a href="../contenido/productos.html" class="btn">Volver a los productos</a>
-          </div>
-      </section>
-      <footer>
-        <div class="footer-content">
-          <div class="footer-info">
-            <h3>Decoración Hogar</h3>
-            <p>Transforma tu casa con nuestra amplia gama de productos decorativos.</p>
-          </div>
-          <div class="footer-contact">
-            <h4>Contacto</h4>
-            <ul>
-              <li>Email: contacto@decoracionhogar.com</li>
-              <li>Teléfono: +123 456 7890</li>
-              <li>Dirección: Escritora Maria Goyrí 21, Córdoba, España</li>
+            <img class="logo" src="../images/logo.png" alt="Logo">
+            <div>
+                <h1>Decora tu hogar con nosotros</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./inicio.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./nosotros.html">Sobre nosotros</a></li> 
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./politica.html">Política de Privacidad y Aviso Legal</a></li>
             </ul>
-          </div>
+        </nav>
+    </header>
+
+    <section class="carrito">
+        <h2>Carrito de la compra</h2>
+
+        <div class="carrito-items">
+            <!-- Producto 1 -->
+            <div class="carrito-item">
+                <img src="/images/alfombra-moderna-3d-relieves-lena-40315.jpg" alt="Producto 1">
+                <div class="carrito-details">
+                    <h3>Alfombra Moderna</h3>
+                    <p>15.00 €</p>
+                </div>
+                <div class="carrito-actions">
+                    <button class="btn">Eliminar</button>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="carrito-item">
+                <img src="/images/lampara de diseño moderno.jpg" alt="Producto 2">
+                <div class="carrito-details">
+                    <h3>Lampara de Pie</h3>
+                    <p>25.00 €</p>
+                </div>
+                <div class="carrito-actions">
+                    <button class="btn">Eliminar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="carrito-total">
+            <h3>Total: 40.00 €</h3>
+            <a href="../contenido/productos.html" class="btn">Seguir comprando</a>
+            <a href="./checkout.html" class="btn">Proceder al pago</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Decoración Hogar</h3>
+                <p>Transforma tu casa con nuestra amplia gama de productos decorativos.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <ul>
+                    <li>Email: contacto@decoracionhogar.com</li>
+                    <li>Teléfono: +123 456 7890</li>
+                    <li>Dirección: Escritora Maria Goyrí 21, Córdoba, España</li>
+                </ul>
+            </div>
         </div>
         <p class="copyright">&copy; 2024 Decoración Hogar. Todos los derechos reservados.</p>
-      </footer>
-</body>
+    </footer>
 
+</body>
 </html>

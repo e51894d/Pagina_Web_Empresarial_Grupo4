@@ -14,6 +14,7 @@ header {
 
 h1 {
   text-align: center; /*Centra el título principal del header*/
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /*Navegación*/
@@ -220,4 +221,32 @@ copyright {
   height: auto; /* Mantiene la proporción */
   margin: 0; /* Elimina márgenes innecesarios */
 
+}
+
+
+.social-section {
+  margin: 20px 0; /* Espaciado vertical de la sección para separarla de otros elementos */
+  text-align: center; /* Centra el contenido de la sección */
+}
+
+.social-section h2 {
+  font-size: 1.8em; /* Tamaño de fuente del encabezado para hacerlo más grande */
+  margin-bottom: 10px; /* Espaciado debajo del encabezado */
+}
+
+.social-icons {
+  display: flex; /* Usa flexbox para alinear los iconos */
+  justify-content: center; /* Centra los iconos horizontalmente */
+  gap: 30px; /* Espacio entre los iconos */
+}
+
+.social-icons a img {
+  width: 50px; /* Ancho uniforme de los iconos */
+  height: 50px; /* Altura uniforme de los iconos */
+  border-radius: 50%; /* Hace los iconos circulares */
+  transition: transform 0.3s ease; /* Agrega una transición suave al efecto de hover */
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2); /* Amplía el icono al pasar el cursor sobre él */
 }

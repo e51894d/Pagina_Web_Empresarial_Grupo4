@@ -163,3 +163,36 @@ body {
   margin: 0; /* Elimina márenes innecesarios */
 
 }
+
+footer {
+  background-color: #a39a8d;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info,
+.footer-contact {
+  flex: 1 1 calc(50% - 20px);
+}
+
+.footer-contact ul {
+  list-style: none;
+}
+
+.footer-contact ul li {
+  margin-bottom: 8px;
+  
+}
