@@ -29,8 +29,8 @@
     font-size: 16px;
   }
   .hero {
-    background: url() no-repeat center center/cover;
-    color: rgb(0, 0, 0);
+    background: url(../images/diliara-garifullina-cZaUWl1Lse4-unsplash.jpg) no-repeat center center/cover;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 100px 20px;
   }
@@ -43,6 +43,10 @@
   .hero-content p {
     font-size: 18px;
     margin-bottom: 30px;
+  }
+  .hero-content img{
+    width: auto;
+    height: auto;
   }
   
   .btn {
@@ -137,4 +141,9 @@ body {
   .offer-item button:hover {
     background-color: #555;
   }
-  
+  .img_ofer{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+  }
