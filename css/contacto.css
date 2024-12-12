@@ -23,7 +23,6 @@ nav {
   align-items: center; /* Alinea los elementos verticalmente en el centro */
   max-width: 1200px; /* Ancho máximo del contenedor */
   margin: 0 auto; /* Centra horizontalmente el contenedor */
-  padding: 0 20px; /* Rellena horizontalmente los lados del contenedor */
 }
 
 .nav-links {
