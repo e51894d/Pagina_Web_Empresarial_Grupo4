@@ -236,3 +236,11 @@ footer {
 }
 
 
+
+.logo  {
+  width: 40px; /* Tamaño más pequeño para el logo */
+  height: 40px;
+  height: auto; /* Mantiene la proporción */
+  margin: 0; /* Elimina márgenes innecesarios */
+
+}
