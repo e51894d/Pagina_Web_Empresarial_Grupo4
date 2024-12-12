@@ -153,13 +153,15 @@
   }
   
   /*Texto explicación de como se ha hecho el trabajo*/
-  .contenido p {
-     float: right;  /*Posiciona el párrafo a la derecha*/
+  .contenido  {
      font-size: 18px; 
      color: #333;
-      margin: 20px;
-      margin-top: 150px;  /*Margen top*/
-      width: 300px;  /*Ancho del texto*/
+     display: flex;
+      justify-content: center; 
+      align-items: center; 
+      
+      
+    
 
     
     }   
