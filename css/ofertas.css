@@ -1,198 +1,212 @@
-  /* Estilo para la barra de navegación */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Merriweather";
-  }
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin: 0 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-  }
-  .hero {
-    background: url(../images/diliara-garifullina-cZaUWl1Lse4-unsplash.jpg) no-repeat center center/cover;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 100px 20px;
-  }
-  
-  .hero-content h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  
-  .hero-content p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  .hero-content img{
-    width: auto;
-    height: auto;
-  }
-  
-  .btn {
-    background-color: #c0ae94;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #978b7a;
-  }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-  }
-  
-  .offers-section {
-    padding: 40px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .section-header h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .section-header p {
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  .offers-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-  }
-  
-  .offer-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    height: 500px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .offer-item img {
-    width: 100%;
-    height: 60%;
-    border-radius: 10px;
-  }
-  
-  .offer-item h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin: 15px 0;
-  }
-  
-  .offer-item .old-price {
-    color: #888;
-    font-size: 1rem;
-    text-decoration: line-through;
-  }
-  
-  .offer-item .new-price {
-    color: #e63946;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .offer-item button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .offer-item button:hover {
-    background-color: #555;
-  }
-  .img_ofer{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    margin-top: -25px;
-    margin-left: 50px;
-  }
+/*Estilo general para todos los elementos del documento*/
 
-
-  
-.logo  {
-  width: 40px; 
-  height: 40px;
-  height: auto; /* Mantiene la proporción */
-  margin: 0; /* Elimina márenes innecesarios */
-
+* {
+  margin: 0; /*Elimina márgenes predeterminados*/
+  padding: 0; /*Elimina rellenos predeterminados*/
+  box-sizing: border-box; /*Incluye bordes y rellenos en el cálculo del tamaño total*/
+  font-family: "Merriweather"; /*Define la fuente predeterminada del texto*/
 }
 
+/*Estilo para el encabezado de la página*/
+header {
+  background-color: #333; /*Fondo oscuro*/
+  color: white; /*Texto blanco*/
+  padding: 10px 0; /*Espaciado superior e inferior*/
+}
+
+/*Estilo para la barra de navegación*/
+nav {
+  display: flex; /*Distribuye elementos en una fila*/
+  justify-content: space-between; /*Coloca los elementos en extremos opuestos*/
+  align-items: center; /*Alinea verticalmente los elementos*/
+  max-width: 1200px; /*Ancho máximo del contenedor*/
+  margin: 0 auto; /*Centra el contenedor horizontalmente*/
+}
+
+/*Estilo para los enlaces de navegación*/
+.nav-links {
+  list-style: none; /*Elimina los estilos de lista*/
+  display: flex; /*Muestra los elementos en fila*/
+}
+
+.nav-links li {
+  margin: 0 15px; /*Espaciado entre elementos*/
+}
+
+.nav-links a {
+  text-decoration: none; /*Elimina subrayado de los enlaces*/
+  color: white; /*Texto blanco*/
+  font-size: 16px; /*Tamaño del texto*/
+}
+
+/*Estilo para la sección hero*/
+.hero {
+  background: url(../images/diliara-garifullina-cZaUWl1Lse4-unsplash.jpg) no-repeat center center/cover;
+  /*Imagen de fondo centrada y escalada proporcionalmente*/
+  color: rgb(255, 255, 255); /*Texto blanco*/
+  text-align: center; /*Centra el texto*/
+  padding: 100px 20px; /*Espaciado interno*/
+}
+
+.hero-content h2 {
+  font-size: 48px; /*Tamaño del texto del título*/
+  margin-bottom: 20px; /*Espaciado inferior*/
+}
+
+.hero-content p {
+  font-size: 18px; /*Tamaño del texto del párrafo*/
+  margin-bottom: 30px; /*Espaciado inferior*/
+}
+
+.hero-content img {
+  width: auto; /*Ancho automático para mantener proporción*/
+  height: auto; /*Alto automático*/
+}
+
+/*Estilo para los botones*/
+.btn {
+  background-color: #c0ae94; /*Fondo marrón claro*/
+  color: white; /*Texto blanco*/
+  padding: 10px 20px; /*Espaciado interno*/
+  text-decoration: none; /*Sin subrayado*/
+  font-size: 16px; /*Tamaño de fuente*/
+  border-radius: 5px; /*Bordes redondeados*/
+  transition: background-color 0.3s; /*Transición de color*/
+}
+
+.btn:hover {
+  background-color: #978b7a; /*Fondo más oscuro al pasar el cursor*/
+}
+
+/*Estilo para el cuerpo del documento*/
+body {
+  font-family: Arial, sans-serif; /*Fuente predeterminada*/
+  margin: 0; /*Sin margen externo*/
+  padding: 0; /*Sin relleno*/
+  background-color: #f9f9f9; /*Fondo gris claro*/
+}
+
+/*Estilo para la sección de ofertas*/
+.offers-section {
+  padding: 40px; /*Espaciado interno*/
+  background-color: #f9f9f9; /*Fondo gris claro*/
+  text-align: center; /*Centra el texto*/
+}
+
+.section-header h2 {
+  font-size: 2rem; /*Tamaño del texto del título*/
+  color: #333; /*Texto oscuro*/
+  margin-bottom: 10px; /*Espaciado inferior*/
+}
+
+.section-header p {
+  font-size: 1.2rem; /*Tamaño del texto del párrafo*/
+  color: #555; /*Texto gris oscuro*/
+}
+
+/*Contenedor de las ofertas*/
+.offers-container {
+  display: flex; /*Contenedor flexible*/
+  justify-content: center; /*Centra los elementos*/
+  gap: 20px; /*Espaciado entre elementos*/
+  flex-wrap: wrap; /*Permite ajuste en filas adicionales*/
+  margin-top: 30px; /*Espaciado superior*/
+}
+
+/*Estilo para cada elemento de oferta*/
+.offer-item {
+  background-color: #fff; /*Fondo blanco*/
+  padding: 20px; /*Espaciado interno*/
+  border-radius: 10px; /*Bordes redondeados*/
+  width: 300px; /*Ancho fijo*/
+  height: 500px; /*Alto fijo*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Sombra suave*/
+  text-align: center; /*Texto centrado*/
+}
+
+.offer-item img {
+  width: 100%; /*Imagen ajusta al ancho del contenedor*/
+  height: 60%; /*Imagen ocupa el 60% del contenedor*/
+  border-radius: 10px; /*Bordes redondeados*/
+}
+
+.offer-item h3 {
+  font-size: 1.5rem; /*Tamaño del título*/
+  color: #333; /*Texto oscuro*/
+  margin: 15px 0; /*Espaciado superior e inferior*/
+}
+
+.offer-item .old-price {
+  color: #888; /*Texto gris*/
+  font-size: 1rem; /*Tamaño del texto*/
+  text-decoration: line-through; /*Línea sobre el texto*/
+}
+
+.offer-item .new-price {
+  color: #e63946; /*Texto rojo*/
+  font-size: 1.2rem; /*Tamaño del texto*/
+  font-weight: bold; /*Texto en negrita*/
+}
+
+.offer-item button {
+  margin-top: 15px; /*Espaciado superior*/
+  padding: 10px 20px; /*Espaciado interno*/
+  background-color: #333; /*Fondo oscuro*/
+  color: #fff; /*Texto blanco*/
+  border: none; /*Sin borde*/
+  border-radius: 5px; /*Bordes redondeados*/
+  cursor: pointer; /*Cambia el cursor al pasar por encima*/
+}
+
+.offer-item button:hover {
+  background-color: #555; /*Fondo más claro al pasar el cursor*/
+}
+
+/*Estilo para imágenes de ofertas*/
+.img_ofer {
+  width: 100px; /*Ancho fijo*/
+  height: 100px; /*Alto fijo*/
+  position: absolute; /*Posición absoluta*/
+  margin-top: -25px; /*Ajuste vertical*/
+  margin-left: 50px; /*Ajuste horizontal*/
+}
+
+/*Estilo para el logotipo*/
+.logo {
+  width: 40px; /*Ancho fijo*/
+  height: auto; /*Mantiene la proporción*/
+  margin: 0; /*Sin márgenes*/
+}
+
+/*Estilo para el pie de página*/
 footer {
-  background-color: #a39a8d;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
+  background-color: #a39a8d; /*Fondo marrón claro*/
+  color: white; /*Texto blanco*/
+  padding: 40px 20px; /*Espaciado interno*/
+  text-align: center; /*Texto centrado*/
 }
 
 .footer-content {
-  font-family: "Merriweather", serif;
-  font-size: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  font-family: "Merriweather", serif; /*Fuente serif*/
+  font-size: 15px; /*Tamaño estándar del texto*/
+  display: flex; /*Contenedor flexible*/
+  flex-wrap: wrap; /*Ajuste en filas adicionales*/
+  justify-content: space-between; /*Distribuye elementos en extremos opuestos*/
+  gap: 20px; /*Espaciado entre elementos*/
+  max-width: 1200px; /*Ancho máximo del contenedor*/
+  margin: 0 auto; /*Centrado horizontal*/
+  padding: 0 20px; /*Espaciado interno lateral*/
 }
 
 .footer-info,
 .footer-contact {
-  flex: 1 1 calc(50% - 20px);
+  flex: 1 1 calc(50% - 20px); /*Ancho flexible basado en porcentaje*/
 }
 
 .footer-contact ul {
-  list-style: none;
+  list-style: none; /*Sin estilo de lista*/
 }
 
 .footer-contact ul li {
-  margin-bottom: 8px;
-  
+  margin-bottom: 8px; /*Espaciado entre los elementos de la lista*/
 }

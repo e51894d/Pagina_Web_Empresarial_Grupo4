@@ -1,97 +1,97 @@
-/* Estilos para un contenedor de contenido centralizado */
+/*Estilos para un contenedor de contenido centralizado*/
 .contentenido {
-  margin-left: 33%; /* Mueve el contenedor hacia la derecha, dejando un 33% de espacio a la izquierda */
-  margin-top: 50px; /* Añade un margen en la parte superior */
-  text-align: center; /* Centra el texto dentro del contenedor */
-  max-width: 800px; /* Establece un ancho máximo para el contenedor */
-  padding: 20px; /* Añade espacio interno (relleno) dentro del contenedor */
-  text-align: justify; /* Justifica el texto (alineación en ambos márgenes) */
-  line-height: 1.6; /* Establece la altura de línea para mejorar la legibilidad */
-  background-color: #fff; /* Establece el fondo blanco */
-  border: 1px solid #ddd; /* Añade un borde gris claro */
-  border-radius: 10px; /* Bordes redondeados */
+  margin-left: 33%; /*Mueve el contenedor hacia la derecha, dejando un 33% de espacio a la izquierda*/
+  margin-top: 50px; /*Añade un margen en la parte superior*/
+  text-align: center; /*Centra el texto dentro del contenedor*/
+  max-width: 800px; /*Establece un ancho máximo para el contenedor*/
+  padding: 20px; /*Añade espacio interno (relleno) dentro del contenedor*/
+  text-align: justify; /*Justifica el texto (alineación en ambos márgenes)*/
+  line-height: 1.6; /*Establece la altura de línea para mejorar la legibilidad*/
+  background-color: #fff; /*Establece el fondo blanco*/
+  border: 1px solid #ddd; /*Añade un borde gris claro*/
+  border-radius: 10px; /*Bordes redondeados*/
 }
 
-/* Reset de márgenes y rellenos en todos los elementos */
-* {
-  margin: 0; /* Elimina los márgenes predeterminados */
-  padding: 0; /* Elimina los rellenos predeterminados */
-  box-sizing: border-box; /* Hace que el padding y el borde no afecten el tamaño total de los elementos */
+/*Reset de márgenes y rellenos en todos los elementos*/
+*{
+  margin: 0; /*Elimina los márgenes predeterminados*/
+  padding: 0; /*Elimina los rellenos predeterminados*/
+  box-sizing: border-box; /*Hace que el padding y el borde no afecten el tamaño total de los elementos*/
 }
 
-/* Estilos para la cabecera */
+/*Estilos para la cabecera*/
 header {
-  background-color: #333; /* Fondo oscuro para la cabecera */
-  color: white; /* Texto blanco */
-  padding: 10px 0; /* Altura de la cabecera */
+  background-color: #333; /*Fondo oscuro para la cabecera*/
+  color: white; /*Texto blanco*/
+  padding: 10px 0; /*Altura de la cabecera*/
 }
 
-/* Estilos para la barra de navegación */
+/*Estilos para la barra de navegación*/
 nav {
-  display: flex; /* Usa flexbox para distribuir los elementos */
-  justify-content: space-between; /* Espacio entre los elementos */
-  align-items: center; /* Alinea los elementos verticalmente */
-  max-width: 1200px; /* Establece un ancho máximo */
-  margin: 0 auto; /* Centra el contenido de la barra de navegación */
+  display: flex; /*Usa flexbox para distribuir los elementos*/
+  justify-content: space-between; /*Espacio entre los elementos*/
+  align-items: center; /*Alinea los elementos verticalmente*/
+  max-width: 1200px; /*Establece un ancho máximo*/
+  margin: 0 auto; /*Centra el contenido de la barra de navegación*/
 }
 
-/* Estilos para los enlaces de navegación */
+/*Estilos para los enlaces de navegación*/
 .nav-links {
-  list-style: none; /* Elimina los puntos de la lista */
-  display: flex; /* Muestra los enlaces en una fila */
+  list-style: none; /*Elimina los puntos de la lista*/
+  display: flex; /*Muestra los enlaces en una fila*/
 }
 
 .nav-links li {
-  margin: 0 15px; /* Espaciado entre los elementos de la lista */
+  margin: 0 15px; /*Espaciado entre los elementos de la lista*/
 }
 
 .nav-links a {
-  text-decoration: none; /* Elimina el subrayado de los enlaces */
-  color: white; /* Texto blanco */
-  font-size: 16px; /* Tamaño de fuente */
+  text-decoration: none; /*Elimina el subrayado de los enlaces*/
+  color: white; /*Texto blanco*/
+  font-size: 16px; /*Tamaño de fuente*/
 }
 
-/* Estilos para el pie de página */
+/*Estilos para el pie de página*/
 footer {
-  background-color: #a39a8d; /* Fondo de color gris claro para el pie de página */
-  color: white; /* Texto blanco */
-  padding: 40px 20px; /* Añade espacio interno */
-  text-align: center; /* Centra el texto dentro del pie de página */
-  position: absolute; /* Posiciona el pie de página de forma absoluta */
-  bottom: 0; /* Lo coloca en la parte inferior de la página */
-  width: 100%; /* Asegura que ocupe todo el ancho de la página */
+  background-color: #a39a8d; /*Fondo de color gris claro para el pie de página*/
+  color: white; /*Texto blanco*/
+  padding: 40px 20px; /*Añade espacio interno*/
+  text-align: center; /*Centra el texto dentro del pie de página*/
+  position: absolute; /*Posiciona el pie de página de forma absoluta*/
+  bottom: 0; /*Lo coloca en la parte inferior de la página*/
+  width: 100%; /*Asegura que ocupe todo el ancho de la página*/
 }
 
-/* Estilos para el contenido del pie de página */
+/*Estilos para el contenido del pie de página*/
 .footer-content {
-  font-family: "Merriweather"; /* Fuente serif para el pie de página */
-  font-size: 15px; /* Tamaño de fuente */
-  display: flex; /* Usa flexbox para distribuir los elementos */
-  justify-content: space-between; /* Distribuye espacio entre los elementos */
-  max-width: 1200px; /* Ancho máximo */
-  margin: 0 auto; /* Centra horizontalmente el contenedor */
+  font-family: "Merriweather"; /*Fuente serif para el pie de página*/
+  font-size: 15px; /*Tamaño de fuente*/
+  display: flex; /*Usa flexbox para distribuir los elementos*/
+  justify-content: space-between; /*Distribuye espacio entre los elementos*/
+  max-width: 1200px; /*Ancho máximo*/
+  margin: 0 auto; /*Centra horizontalmente el contenedor*/
 }
 
-/* Estilo para las secciones de información y contacto en el pie de página */
+/*Estilo para las secciones de información y contacto en el pie de página*/
 .footer-info, .footer-contact {
-  width: 30%; /* Establece el ancho de cada sección del pie de página */
+  width: 30%; /*Establece el ancho de cada sección del pie de página*/
 }
 
-/* Estilos para las listas dentro de la sección de contacto */
+/*Estilos para las listas dentro de la sección de contacto*/
 .footer-contact ul {
-  list-style: none; /* Elimina los puntos de la lista */
+  list-style: none; /*Elimina los puntos de la lista*/
 }
 
-/* Estilo para el texto de derechos de autor */
+/*Estilo para el texto de derechos de autor*/
 .copyright {
-  margin-top: 20px; /* Añade espacio en la parte superior */
-  font-size: 14px; /* Tamaño de fuente más pequeño */
+  margin-top: 20px; /*Añade espacio en la parte superior*/
+  font-size: 14px; /*Tamaño de fuente más pequeño*/
 }
 
-/* Estilos para el logo */
+/*Estilos para el logo*/
 .logo {
-  width: 40px; /* Establece el ancho del logo */
-  height: 500px; /* Establece la altura del logo */
-  height: auto; /* Mantiene la proporción original de la imagen */
-  margin: 0; /* Elimina márgenes innecesarios */
+  width: 40px; /*Establece el ancho del logo*/
+  height: 500px; /*Establece la altura del logo*/
+  height: auto; /*Mantiene la proporción original de la imagen*/
+  margin: 0; /*Elimina márgenes innecesarios*/
 }

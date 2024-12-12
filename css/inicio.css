@@ -1,237 +1,234 @@
+/*Define una fuente personalizada con nombre 'Cheva' y especifica su ubicación*/
 @font-face {
-  font-family: 'Cheva';
-  src: url('../fonts/ChevadisplayRegular-1G5ve.otf');
+  font-family: 'Cheva'; /*Nombre de la fuente personalizada*/
+  src: url('../fonts/ChevadisplayRegular-1G5ve.otf'); /*Ruta del archivo de fuente*/
 }
-/* Reset de márgenes y padding */
+
+/*Restablece márgenes, padding y configura box-sizing para todo el documento*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /*Elimina los márgenes predeterminados*/
+  padding: 0; /*Elimina el relleno predeterminado*/
+  box-sizing: border-box; /*Incluye bordes y rellenos en el cálculo del tamaño total*/
 }
 
-/* Estilo para la barra de navegación */
+/*Estilo para la barra de navegación*/
 header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
+  background-color: #333; /*Fondo oscuro*/
+  color: white; /*Texto en blanco*/
+  padding: 10px 0; /*Espaciado superior e inferior*/
 }
-
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-
+  display: flex; /*Diseño flexible para distribuir elementos*/
+  justify-content: space-between; /*Coloca los elementos en extremos opuestos*/
+  align-items: center; /*Alinea verticalmente los elementos*/
+  max-width: 1200px; /*Ancho máximo del contenedor*/
+  margin: 0 auto; /*Centra el contenedor horizontalmente*/
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-
+  list-style: none; /*Elimina los estilos de lista (como puntos)*/
+  display: flex; /*Muestra los elementos en una fila*/
 }
 
 .nav-links li {
-  margin: 0 15px;
+  margin: 0 15px; /*Añade espacio entre los elementos*/
 }
 
 .nav-links a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
+  text-decoration: none; /*Elimina el subrayado en los enlaces*/
+  color: white; /*Texto blanco*/
+  font-size: 16px; /*Tamaño del texto*/
 }
 
-/* Estilos para la sección hero */
+/*Estilo para la sección principal (hero)*/
 .hero {
   background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
+  /*Imagen de fondo centrada y escalada proporcionalmente*/
+  color: white; /*Texto blanco*/
+  text-align: center; /*Centra el texto horizontalmente*/
+  padding: 100px 20px; /*Espaciado interno*/
 }
 
 .hero-content h2 {
-  font-size: 7rem;
-  margin-bottom: 20px;
-  font-family: "Cheva";
+  font-size: 7rem; /*Tamaño grande para el título*/
+  margin-bottom: 20px; /*Espaciado inferior*/
+  font-family: "Cheva"; /*Usa la fuente personalizada 'Cheva'*/
 }
 
 .hero-content p {
-  font-size: 1rem;
-  margin-bottom: 30px;
+  font-size: 1rem; /*Tamaño estándar del párrafo*/
+  margin-bottom: 30px; /*Espaciado inferior*/
 }
 
+/*Estilo para botones*/
 .btn {
-  background-color: #e67e22;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  background-color: #e67e22; /*Fondo naranja*/
+  color: white; /*Texto blanco*/
+  padding: 10px 20px; /*Espaciado interno*/
+  text-decoration: none; /*Sin subrayado*/
+  font-size: 18px; /*Tamaño de fuente*/
+  border-radius: 5px; /*Bordes redondeados*/
+  transition: background-color 0.3s ease; /*Transición suave al cambiar el color*/
 }
 
 .btn:hover {
-  background-color: #d35400;
+  background-color: #d35400; /*Fondo más oscuro al pasar el cursor*/
 }
 
-/* Estilo para las categorías de productos */
+/*Estilo para la sección de productos*/
 .productos {
-  padding: 60px 20px;
-  text-align: center;
+  padding: 60px 20px; /*Espaciado interno*/
+  text-align: center; /*Centra el texto*/
 }
 
 .productos .section-title {
-  font-size: 2rem;
-  margin-bottom: 40px;
+  font-size: 2rem; /*Tamaño del título de sección*/
+  margin-bottom: 40px; /*Espaciado inferior*/
 }
 
 .productos-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  display: flex; /*Contenedor flexible*/
+  justify-content: center; /*Centra horizontalmente los elementos*/
+  gap: 20px; /*Espaciado entre elementos*/
+  flex-wrap: wrap; /*Permite el ajuste en filas adicionales*/
 }
 
 .producto {
-  flex: 1 1 calc(33% - 40px);
-  max-width: 300px;
-  padding: 20px;
-  text-align: center;
+  flex: 1 1 calc(33% - 40px); /*Ancho flexible basado en porcentaje*/
+  max-width: 300px; /*Ancho máximo*/
+  padding: 20px; /*Espaciado interno*/
+  text-align: center; /*Texto centrado*/
 }
 
 .producto img {
-  width: 300px;
-  height: 300px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  transition: transform 0.5s ease;
+  width: 300px; /*Ancho fijo*/
+  height: 300px; /*Alto fijo*/
+  border-radius: 8px; /*Bordes redondeados*/
+  margin-bottom: 15px; /*Espaciado inferior*/
+  transition: transform 0.5s ease; /*Animación de transformación*/
 }
 
 .producto:hover img {
-  transform: scale(1.1); /* Hace la animación del zoom */
+  transform: scale(1.1); /*Amplía la imagen al pasar el cursor*/
 }
 
 .producto h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.5rem; /*Tamaño del texto del título*/
+  margin-bottom: 10px; /*Espaciado inferior*/
 }
 
-/* Estilos para las ofertas */
+/*Estilo para la sección de ofertas*/
 .ofertas {
-  background-color: #f4f4f4;
-  padding: 60px 20px;
-  text-align: center;
+  background-color: #f4f4f4; /*Fondo claro*/
+  padding: 60px 20px; /*Espaciado interno*/
+  text-align: center; /*Texto centrado*/
 }
 
 .ofertas .section-title {
-  font-size: 2rem;
-  margin-bottom: 40px;
+  font-size: 2rem; /*Tamaño del título*/
+  margin-bottom: 40px; /*Espaciado inferior*/
 }
 
 .oferta-items {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  display: flex; /*Contenedor flexible*/
+  justify-content: center; /*Centra horizontalmente los elementos*/
+  gap: 20px; /*Espaciado entre elementos*/
+  flex-wrap: wrap; /*Ajuste en filas adicionales*/
 }
 
 .oferta-item {
-  flex: 1 1 calc(50% - 40px);
-  max-width: 300px;
-  margin-bottom: 20px;
+  flex: 1 1 calc(50% - 40px); /*Ancho flexible basado en porcentaje*/
+  max-width: 300px; /*Ancho máximo*/
+  margin-bottom: 20px; /*Espaciado inferior*/
 }
 
 .oferta-item img {
-  width: 300px;
-  height: 300px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  transition: transform 0.5s ease;
+  width: 300px; /*Ancho fijo*/
+  height: 300px; /*Alto fijo*/
+  border-radius: 8px; /*Bordes redondeados*/
+  margin-bottom: 15px; /*Espaciado inferior*/
+  transition: transform 0.5s ease; /*Animación de transformación*/
 }
 
 .oferta-item:hover img {
-  transform: scale(1.1); /* Hace la animación del zoom */
+  transform: scale(1.1); /*Amplía la imagen al pasar el cursor*/
 }
 
-/* Pie de página */
+/*Estilo para el pie de página*/
 footer {
-  background-color: #a39a8d;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
+  background-color: #a39a8d; /*Fondo marrón claro*/
+  color: white; /*Texto blanco*/
+  padding: 40px 20px; /*Espaciado interno*/
+  text-align: center; /*Texto centrado*/
 }
 
 .footer-content {
-  font-family: "Merriweather", serif;
-  font-size: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  font-family: "Merriweather", serif; /*Fuente serif*/
+  font-size: 15px; /*Tamaño estándar de fuente*/
+  display: flex; /*Contenedor flexible*/
+  flex-wrap: wrap; /*Ajuste en filas adicionales*/
+  justify-content: space-between; /*Espacio entre elementos*/
+  gap: 20px; /*Espaciado entre bloques*/
+  max-width: 1200px; /*Ancho máximo*/
+  margin: 0 auto; /*Centrado horizontal*/
+  padding: 0 20px; /*Espaciado interno lateral*/
 }
 
 .footer-info,
 .footer-contact {
-  flex: 1 1 calc(50% - 20px);
+  flex: 1 1 calc(50% - 20px); /*Ancho flexible basado en porcentaje*/
 }
 
 .footer-contact ul {
-  list-style: none;
+  list-style: none; /*Sin estilo de lista*/
 }
 
 .footer-contact ul li {
-  margin-bottom: 8px;
-  
+  margin-bottom: 8px; /*Espaciado entre los elementos de la lista*/
 }
 
-/* Media Queries para adaptabilidad */
+/*Media Queries para dispositivos pequeños*/
 @media (max-width: 768px) {
   nav {
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Permite que los elementos se ajusten a nuevas filas*/
   }
 
   .nav-links {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /*Cambia los enlaces a una columna*/
+    align-items: center; /*Centra los elementos verticalmente*/
   }
 
   .hero-content h2 {
-    font-size: 2rem;
-  
+    font-size: 2rem; /*Reduce el tamaño del título*/
   }
 
   .hero-content p {
-    font-size: 0.9rem;
+    font-size: 0.9rem; /*Reduce el tamaño del texto*/
   }
 
   .productos-container,
   .oferta-items {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /*Coloca los elementos en una sola columna*/
+    align-items: center; /*Centra los elementos*/
   }
 
   .producto,
   .oferta-item {
-    flex: 1 1 100%;
-    max-width: 100%;
+    flex: 1 1 100%; /*Cada elemento ocupa el 100% del ancho*/
+    max-width: 100%; /*Ancho máximo ajustado*/
   }
 
   .footer-info,
   .footer-contact {
-    flex: 1 1 100%;
-    text-align: center;
+    flex: 1 1 100%; /*Ocupa todo el ancho*/
+    text-align: center; /*Texto centrado*/
   }
 }
 
-
-.logo  {
-  width: 40px; 
-  height: 40px;
-  height: auto; /* Mantiene la proporción */
-  margin: 0; /* Elimina márgenes innecesarios */
-
+/*Estilo para el logotipo*/
+.logo {
+  width: 40px; /*Ancho fijo*/
+  height: auto; /*Mantiene la proporción*/
+  margin: 0; /*Elimina márgenes*/
 }

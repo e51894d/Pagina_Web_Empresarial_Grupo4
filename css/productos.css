@@ -1,201 +1,201 @@
-/* Reseteo de márgenes y rellenos */
+/*Reseteo de márgenes y rellenos*/
 * {
-  margin: 0; /* Elimina márgenes predeterminados */
-  padding: 0; /* Elimina rellenos predeterminados */
-  box-sizing: border-box; /* Asegura que el padding y el borde no afecten el tamaño total de los elementos */
+  margin: 0; /*Elimina márgenes predeterminados*/
+  padding: 0; /*Elimina rellenos predeterminados*/
+  box-sizing: border-box; /*Asegura que el padding y el borde no afecten el tamaño total de los elementos*/
 }
 
-/* Estilos para la barra de navegación */
+/*Estilos para la barra de navegación*/
 header {
-  background-color: #333; /* Fondo oscuro para la cabecera */
-  color: white; /* Texto blanco */
-  padding: 10px 0; /* Altura de la cabecera */
+  background-color: #333; /*Fondo oscuro para la cabecera*/
+  color: white; /*Texto blanco*/
+  padding: 10px 0; /*Altura de la cabecera*/
 }
 
 nav {
-  display: flex; /* Usa flexbox para distribuir los elementos */
-  justify-content: space-between; /* Espacio entre los elementos */
-  align-items: center; /* Alinea los elementos verticalmente */
-  max-width: 1200px; /* Establece un ancho máximo */
-  margin: 0 auto; /* Centra la barra de navegación */
+  display: flex; /*Usa flexbox para distribuir los elementos*/
+  justify-content: space-between; /*Espacio entre los elementos*/
+  align-items: center; /*Alinea los elementos verticalmente*/
+  max-width: 1200px; /*Establece un ancho máximo*/
+  margin: 0 auto; /*Centra la barra de navegación*/
 }
 
-/* Estilos para la sección Hero (pantalla inicial grande) */
+/*Estilos para la sección Hero (pantalla inicial grande)*/
 .hero {
-  background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover; /* Fondo de imagen de la hero */
-  color: white; /* Texto blanco */
-  text-align: center; /* Centra el texto */
-  padding: 100px 20px; /* Añade relleno alrededor del texto */
+  background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover; /*Fondo de imagen de la hero*/
+  color: white; /*Texto blanco*/
+  text-align: center; /*Centra el texto*/
+  padding: 100px 20px; /*Añade relleno alrededor del texto*/
 }
 
-/* Estilos para los enlaces de navegación */
+/*Estilos para los enlaces de navegación*/
 .nav-links {
-  list-style: none; /* Elimina los puntos de la lista */
-  display: flex; /* Los enlaces se colocan en una fila */
+  list-style: none; /*Elimina los puntos de la lista*/
+  display: flex; /*Los enlaces se colocan en una fila*/
 }
 
 .nav-links li {
-  margin: 0 15px; /* Espacio entre los elementos */
+  margin: 0 15px; /*Espacio entre los elementos*/
 }
 
 .nav-links a {
-  text-decoration: none; /* Elimina el subrayado de los enlaces */
-  color: white; /* Texto blanco */
-  font-size: 16px; /* Tamaño de fuente */
+  text-decoration: none; /*Elimina el subrayado de los enlaces*/
+  color: white; /*Texto blanco*/
+  font-size: 16px; /*Tamaño de fuente*/
 }
 
-/* Estilos para el banner principal */
+/*Estilos para el banner principal*/
 .banner {
-  background: url('https://via.placeholder.com/1500x700') no-repeat center center/cover; /* Fondo de imagen para el banner */
-  color: white; /* Texto blanco */
-  text-align: center; /* Centra el texto */
-  padding: 120px 20px; /* Relleno alrededor del texto */
+  background: url('https://via.placeholder.com/1500x700') no-repeat center center/cover; /*Fondo de imagen para el banner*/
+  color: white; /*Texto blanco*/
+  text-align: center; /*Centra el texto*/
+  padding: 120px 20px; /*Relleno alrededor del texto*/
 }
 
 .banner-text h2 {
-  font-size: 40px; /* Tamaño grande para el título */
-  margin-bottom: 20px; /* Espacio debajo del título */
+  font-size: 40px; /*Tamaño grande para el título*/
+  margin-bottom: 20px; /*Espacio debajo del título*/
 }
 
 .banner-text p {
-  font-size: 18px; /* Tamaño de fuente moderado */
-  margin-bottom: 30px; /* Espacio debajo del párrafo */
+  font-size: 18px; /*Tamaño de fuente moderado*/
+  margin-bottom: 30px; /*Espacio debajo del párrafo*/
 }
 
-/* Estilos para los botones */
+/*Estilos para los botones*/
 .btn {
-  background-color: #e67e22; /* Color de fondo del botón */
-  color: white; /* Texto blanco */
-  padding: 10px 20px; /* Relleno interno */
-  text-decoration: none; /* Elimina subrayado */
-  font-size: 18px; /* Tamaño de fuente */
-  border-radius: 5px; /* Bordes redondeados */
-  transition: background-color 0.3s ease; /* Efecto suave para el cambio de color al pasar el ratón */
+  background-color: #e67e22; /*Color de fondo del botón*/
+  color: white; /*Texto blanco*/
+  padding: 10px 20px; /*Relleno interno*/
+  text-decoration: none; /*Elimina subrayado*/
+  font-size: 18px; /*Tamaño de fuente*/
+  border-radius: 5px; /*Bordes redondeados*/
+  transition: background-color 0.3s ease; /*Efecto suave para el cambio de color al pasar el ratón*/
 }
 
 .btn:hover {
-  background-color: #d35400; /* Color de fondo más oscuro cuando se pasa el ratón */
+  background-color: #d35400; /*Color de fondo más oscuro cuando se pasa el ratón*/
 }
 
-/* Estilos para la sección de productos */
+/*Estilos para la sección de productos*/
 .productos {
-  padding: 60px 20px; /* Relleno alrededor de la sección */
-  text-align: center; /* Centra el texto */
+  padding: 60px 20px; /*Relleno alrededor de la sección*/
+  text-align: center; /*Centra el texto*/
 }
 
 .section-title {
-  font-size: 32px; /* Tamaño de fuente grande para el título de la sección */
-  margin-bottom: 40px; /* Espacio debajo del título */
+  font-size: 32px; /*Tamaño de fuente grande para el título de la sección*/
+  margin-bottom: 40px; /*Espacio debajo del título*/
 }
 
 .productos-grid {
-  display: grid; /* Usa el sistema de grid para organizar los productos */
-  grid-template-columns: repeat(3, 1fr); /* Crea tres columnas de igual tamaño */
-  gap: 20px; /* Espacio entre los elementos */
+  display: grid; /*Usa el sistema de grid para organizar los productos*/
+  grid-template-columns: repeat(3, 1fr); /*Crea tres columnas de igual tamaño*/
+  gap: 20px; /*Espacio entre los elementos*/
 }
 
 .producto-item {
-  background-color: #f4f4f4; /* Fondo gris claro para los elementos de producto */
-  padding: 20px; /* Relleno interno */
-  border-radius: 8px; /* Bordes redondeados */
-  text-align: center; /* Centra el texto dentro de cada producto */
+  background-color: #f4f4f4; /*Fondo gris claro para los elementos de producto*/
+  padding: 20px; /*Relleno interno*/
+  border-radius: 8px; /*Bordes redondeados*/
+  text-align: center; /*Centra el texto dentro de cada producto*/
 }
 
 .producto-item img {
-  width: 350px; /* Establece un tamaño fijo para las imágenes */
-  height: 350px; /* Altura fija */
-  border-radius: 8px; /* Bordes redondeados en las imágenes */
-  margin-bottom: 20px; /* Espacio debajo de la imagen */
+  width: 350px; /*Establece un tamaño fijo para las imágenes*/
+  height: 350px; /*Altura fija*/
+  border-radius: 8px; /*Bordes redondeados en las imágenes*/
+  margin-bottom: 20px; /*Espacio debajo de la imagen*/
 }
 
 .producto-item h3 {
-  font-size: 24px; /* Tamaño de fuente grande para el título del producto */
-  margin-bottom: 10px; /* Espacio debajo del título */
+  font-size: 24px; /*Tamaño de fuente grande para el título del producto*/
+  margin-bottom: 10px; /*Espacio debajo del título*/
 }
 
 .producto-item p {
-  font-size: 16px; /* Tamaño de fuente moderado */
-  margin-bottom: 20px; /* Espacio debajo de la descripción */
+  font-size: 16px; /*Tamaño de fuente moderado*/
+  margin-bottom: 20px; /*Espacio debajo de la descripción*/
 }
 
-/* Estilos para la sección de testimonios */
+/*Estilos para la sección de testimonios*/
 .testimonios {
-  background-color: #f9f9f9; /* Fondo gris claro para la sección de testimonios */
-  padding: 60px 20px; /* Relleno alrededor de la sección */
-  text-align: center; /* Centra el texto */
+  background-color: #f9f9f9; /*Fondo gris claro para la sección de testimonios*/
+  padding: 60px 20px; /*Relleno alrededor de la sección*/
+  text-align: center; /*Centra el texto*/
 }
 
 .testimonios-container {
-  display: flex; /* Usa flexbox para distribuir los testimonios */
-  justify-content: space-between; /* Espacio entre los elementos */
-  flex-wrap: wrap; /* Los elementos se envuelven si es necesario */
+  display: flex; /*Usa flexbox para distribuir los testimonios*/
+  justify-content: space-between; /*Espacio entre los elementos*/
+  flex-wrap: wrap; /*Los elementos se envuelven si es necesario*/
 }
 
 .testimonio-item {
-  width: 30%; /* Establece el tamaño de cada testimonio */
-  background-color: #fff; /* Fondo blanco para los testimonios */
-  padding: 20px; /* Relleno interno */
-  margin-bottom: 20px; /* Espacio debajo de cada testimonio */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de los testimonios */
+  width: 30%; /*Establece el tamaño de cada testimonio*/
+  background-color: #fff; /*Fondo blanco para los testimonios*/
+  padding: 20px; /*Relleno interno*/
+  margin-bottom: 20px; /*Espacio debajo de cada testimonio*/
+  border-radius: 8px; /*Bordes redondeados*/
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /*Sombra suave alrededor de los testimonios*/
 }
 
 .testimonio-item p {
-  font-size: 16px; /* Tamaño de fuente moderado */
-  margin-bottom: 15px; /* Espacio debajo de la descripción del testimonio */
+  font-size: 16px; /*Tamaño de fuente moderado*/
+  margin-bottom: 15px; /*Espacio debajo de la descripción del testimonio*/
 }
 
 .testimonio-item h4 {
-  font-size: 18px; /* Tamaño de fuente para el nombre del autor */
-  color: #e67e22; /* Color para resaltar el nombre */
+  font-size: 18px; /*Tamaño de fuente para el nombre del autor*/
+  color: #e67e22; /*Color para resaltar el nombre*/
 }
 
-/* Estilos para la sección de contacto */
+/*Estilos para la sección de contacto*/
 .contacto {
-  padding: 60px 20px; /* Relleno alrededor de la sección */
-  text-align: center; /* Centra el texto */
+  padding: 60px 20px; /*Relleno alrededor de la sección*/
+  text-align: center; /*Centra el texto*/
 }
 
 .contacto form {
-  max-width: 500px; /* Establece un ancho máximo para el formulario */
-  margin: 0 auto; /* Centra el formulario horizontalmente */
+  max-width: 500px; /*Establece un ancho máximo para el formulario*/
+  margin: 0 auto; /*Centra el formulario horizontalmente*/
 }
 
 .contacto input, .contacto textarea {
-  width: 100%; /* Hace que los campos de entrada ocupen todo el ancho disponible */
-  padding: 15px; /* Relleno interno */
-  margin-bottom: 20px; /* Espacio debajo de los campos */
-  border-radius: 8px; /* Bordes redondeados */
-  border: 1px solid #ddd; /* Borde gris claro */
+  width: 100%; /*Hace que los campos de entrada ocupen todo el ancho disponible*/
+  padding: 15px; /*Relleno interno*/
+  margin-bottom: 20px; /*Espacio debajo de los campos*/
+  border-radius: 8px; /*Bordes redondeados*/
+  border: 1px solid #ddd; /*Borde gris claro*/
 }
 
 .contacto button {
-  width: 100%; /* Hace que el botón ocupe todo el ancho disponible */
-  padding: 15px; /* Relleno interno */
-  background-color: #e67e22; /* Fondo naranja */
-  color: white; /* Texto blanco */
-  border-radius: 8px; /* Bordes redondeados */
-  font-size: 18px; /* Tamaño de fuente grande */
-  border: none; /* Elimina el borde por defecto */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  width: 100%; /*Hace que el botón ocupe todo el ancho disponible*/
+  padding: 15px; /*Relleno interno*/
+  background-color: #e67e22; /*Fondo naranja*/
+  color: white; /*Texto blanco*/
+  border-radius: 8px; /*Bordes redondeados*/
+  font-size: 18px; /*Tamaño de fuente grande*/
+  border: none; /*Elimina el borde por defecto*/
+  cursor: pointer; /*Cambia el cursor al pasar sobre el botón*/
 }
 
 .contacto button:hover {
-  background-color: #d35400; /* Color más oscuro al pasar el ratón sobre el botón */
+  background-color: #d35400; /*Color más oscuro al pasar el ratón sobre el botón*/
 }
 
-/* Estilos para el pie de página */
+/*Estilos para el pie de página*/
 footer {
-  background-color: #444; /* Fondo gris oscuro */
-  color: white; /* Texto blanco */
-  padding: 40px 20px; /* Relleno alrededor del pie de página */
-  text-align: center; /* Centra el texto */
+  background-color: #444; /*Fondo gris oscuro*/
+  color: white; /*Texto blanco*/
+  padding: 40px 20px; /*Relleno alrededor del pie de página*/
+  text-align: center; /*Centra el texto*/
 }
 
-/* Estilos para el logo */
+/*Estilos para el logo*/
 .logo {
-  width: 40px; /* Ancho del logo */
-  height: 40px; /* Altura del logo */
-  height: auto; /* Mantiene la proporción de la imagen */
-  margin: 0; /* Elimina márgenes innecesarios */
+  width: 40px; /*Ancho del logo*/
+  height: 40px; /*Altura del logo*/
+  height: auto; /*Mantiene la proporción de la imagen*/
+  margin: 0; /*Elimina márgenes innecesarios*/
 }

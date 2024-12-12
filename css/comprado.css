@@ -1,269 +1,262 @@
 @font-face {
-    font-family: 'Cheva';
-    src: url('../fonts/ChevadisplayRegular-1G5ve.otf');
-  }
-  /* Reset de márgenes y padding */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Merriweather";
-  }
-  
-  /* Estilo para la barra de navegación */
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    font-family: "Merriweather";
-  }
-  
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-  
-  }
-  
-  .nav-links li {
-    margin: 0 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-  }
-  
-  /* Estilos para la sección hero */
-  .hero {
-    background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-  }
-  
-  .hero-content h2 {
-    font-size: 7rem;
-    margin-bottom: 20px;
-    font-family: "Cheva";
-  }
-  
-  .hero-content p {
-    font-size: 1rem;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    background-color: #c0ae94;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #978b7a;
-  }
-  
-  /* Estilo para las categorías de productos */
-  .productos {
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  .productos .section-title {
-    font-size: 2rem;
-    margin-bottom: 40px;
-  }
-  
-  .productos-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .producto {
-    flex: 1 1 calc(33% - 40px);
-    max-width: 300px;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .producto img {
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    transition: transform 0.5s ease;
-  }
-  
-  .producto:hover img {
-    transform: scale(1.1); /* Hace la animación del zoom */
-  }
-  
-  .producto h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  /* Estilos para las ofertas */
-  .ofertas {
-    background-color: #f4f4f4;
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  .ofertas .section-title {
-    font-size: 2rem;
-    margin-bottom: 40px;
-  }
-  
-  .oferta-items {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .oferta-item {
-    flex: 1 1 calc(50% - 40px);
-    max-width: 300px;
-    margin-bottom: 20px;
-  }
-  
-  .oferta-item img {
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    transition: transform 0.5s ease;
-  }
-  
-  .oferta-item:hover img {
-    transform: scale(1.1); /* Hace la animación del zoom */
-  }
-  
-  /* Pie de página */
-  footer {
-    background-color: #a39a8d;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer-content {
-    font-family: "Merriweather", serif;
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .footer-info,
-  .footer-contact {
-    flex: 1 1 calc(50% - 20px);
-  }
-  
-  .footer-contact ul {
-    list-style: none;
-  }
-  
-  .footer-contact ul li {
-    margin-bottom: 8px;
-    
-  }
-  
-.logo  {
-  
-  height: auto; /* Mantiene la proporción */
-  margin: 0; /* Elimina márgenes innecesarios */
-  width: 40px;
-  height: 40px;
-
+  font-family: 'Cheva'; /*Define una fuente personalizada llamada 'Cheva'*/
+  src: url('../fonts/ChevadisplayRegular-1G5ve.otf'); /*Ubicación del archivo de fuente*/
+}
+/*Reset de márgenes y padding*/
+* {
+  margin: 0; /*Elimina márgenes predeterminados*/
+  padding: 0; /*Elimina padding predeterminado*/
+  box-sizing: border-box; /*Incluye bordes y padding en el tamaño total del elemento*/
+  font-family: "Merriweather"; /*Establece la fuente global de la página*/
 }
 
-.carrito {
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/*Estilo para la barra de navegación*/
+header {
+  background-color: #333; /*Fondo oscuro*/
+  color: white; /*Texto blanco*/
+  padding: 10px 0; /*Espaciado superior e inferior*/
+  font-family: "Merriweather"; /*Usa la fuente 'Merriweather'*/
 }
 
-.carrito-items {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+nav {
+  display: flex; /*Diseño flexible para organizar elementos*/
+  justify-content: space-between; /*Espacio entre elementos extremos*/
+  align-items: center; /*Alinea elementos verticalmente*/
+  max-width: 1200px; /*Limita el ancho máximo*/
+  margin: 0 auto; /*Centra el contenido horizontalmente*/
+  padding: 0 20px; /*Espaciado lateral*/
 }
 
-.carrito-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+.nav-links {
+  list-style: none; /*Elimina los puntos o números de la lista*/
+  display: flex; /*Muestra los elementos en línea*/
 }
 
-.carrito-item img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 5px;
+.nav-links li {
+  margin: 0 15px; /*Espaciado entre elementos de la lista*/
 }
 
-.carrito-details {
-  flex: 1;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.nav-links a {
+  text-decoration: none; /*Elimina subrayado de los enlaces*/
+  color: white; /*Enlaces en blanco*/
+  font-size: 16px; /*Tamaño de fuente de los enlaces*/
 }
 
-.carrito-actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/*Estilos para la sección hero*/
+.hero {
+  background: url(../images/andrei-j-castanha-pwk2M7xkZBU-unsplash.jpg) no-repeat center center/cover;
+  /*Fondo con imagen centrada y escalada proporcionalmente*/
+  color: white; /*Texto blanco*/
+  text-align: center; /*Centra texto horizontalmente*/
+  padding: 100px 20px; /*Espaciado interno*/
+}
+
+.hero-content h2 {
+  font-size: 7rem; /*Tamaño grande para el título*/
+  margin-bottom: 20px; /*Espaciado inferior*/
+  font-family: "Cheva"; /*Usa la fuente personalizada 'Cheva'*/
+}
+
+.hero-content p {
+  font-size: 1rem; /*Tamaño estándar para el párrafo*/
+  margin-bottom: 30px; /*Espaciado inferior*/
 }
 
 .btn {
-  padding: 10px 20px;
-  background-color: #d87c00;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
+  background-color: #c0ae94; /*Color de fondo del botón*/
+  color: white; /*Texto blanco*/
+  padding: 10px 20px; /*Espaciado interno*/
+  text-decoration: none; /*Elimina subrayado*/
+  font-size: 1rem; /*Tamaño de fuente estándar*/
+  border-radius: 5px; /*Bordes redondeados*/
+  transition: background-color 0.3s; /*Transición suave para el color de fondo*/
 }
 
 .btn:hover {
-  background-color: #fcc276bb;
+  background-color: #978b7a; /*Cambio de color al pasar el cursor*/
+}
+
+/*Estilo para las categorías de productos*/
+.productos {
+  padding: 60px 20px; /*Espaciado interno*/
+  text-align: center; /*Texto centrado*/
+}
+
+.productos .section-title {
+  font-size: 2rem; /*Tamaño de fuente para el título*/
+  margin-bottom: 40px; /*Espaciado inferior*/
+}
+
+.productos-container {
+  display: flex; /*Diseño flexible*/
+  justify-content: center; /*Centra elementos horizontalmente*/
+  gap: 20px; /*Espacio entre elementos*/
+  flex-wrap: wrap; /*Permite que los elementos se ajusten a nuevas filas*/
+}
+
+.producto {
+  flex: 1 1 calc(33% - 40px); /*Ancho adaptable con margen*/
+  max-width: 300px; /*Ancho máximo*/
+  padding: 20px; /*Espaciado interno*/
+  text-align: center; /*Centra texto*/
+}
+
+.producto img {
+  width: 300px; /*Ancho fijo de la imagen*/
+  height: 300px; /*Alto fijo de la imagen*/
+  border-radius: 8px; /*Bordes redondeados*/
+  margin-bottom: 15px; /*Espaciado inferior*/
+  transition: transform 0.5s ease; /*Animación de transformación*/
+}
+
+.producto:hover img {
+  transform: scale(1.1); /*Aumenta el tamaño de la imagen al pasar el cursor*/
+}
+
+.producto h3 {
+  font-size: 1.5rem; /*Tamaño de fuente del título*/
+  margin-bottom: 10px; /*Espaciado inferior*/
+}
+
+/*Estilos para las ofertas*/
+.ofertas {
+  background-color: #f4f4f4; /*Fondo claro*/
+  padding: 60px 20px; /*Espaciado interno*/
+  text-align: center; /*Texto centrado*/
+}
+
+.ofertas .section-title {
+  font-size: 2rem; /*Tamaño de fuente para el título*/
+  margin-bottom: 40px; /*Espaciado inferior*/
+}
+
+.oferta-items {
+  display: flex; /*Diseño flexible*/
+  justify-content: center; /*Centra elementos horizontalmente*/
+  gap: 20px; /*Espacio entre elementos*/
+  flex-wrap: wrap; /*Permite ajuste en filas nuevas*/
+}
+
+.oferta-item {
+  flex: 1 1 calc(50% - 40px); /*Ancho adaptable con margen*/
+  max-width: 300px; /*Ancho máximo*/
+  margin-bottom: 20px; /*Espaciado inferior*/
+}
+
+.oferta-item img {
+  width: 300px; /*Ancho fijo*/
+  height: 300px; /*Alto fijo*/
+  border-radius: 8px; /*Bordes redondeados*/
+  margin-bottom: 15px; /*Espaciado inferior*/
+  transition: transform 0.5s ease; /*Animación de transformación*/
+}
+
+.oferta-item:hover img {
+  transform: scale(1.1); /*Aumenta el tamaño de la imagen al pasar el cursor*/
+}
+
+/*Pie de página*/
+footer {
+  background-color: #a39a8d; /*Fondo color marrón claro*/
+  color: white; /*Texto blanco*/
+  padding: 40px 20px; /*Espaciado interno*/
+  text-align: center; /*Texto centrado*/
+  position: absolute; /*Posición fija al final*/
+  bottom: 0; /*Fijado al fondo*/
+  width: 100%; /*Ancho completo*/
+}
+
+.footer-content {
+  font-family: "Merriweather", serif; /*Fuente serif*/
+  font-size: 15px; /*Tamaño de fuente estándar*/
+  display: flex; /*Diseño flexible*/
+  flex-wrap: wrap; /*Ajuste en filas*/
+  justify-content: space-between; /*Espacio entre elementos*/
+  gap: 20px; /*Espaciado entre bloques*/
+  max-width: 1200px; /*Ancho máximo*/
+  margin: 0 auto; /*Centrado horizontal*/
+  padding: 0 20px; /*Espaciado lateral*/
+}
+
+.footer-info,
+.footer-contact {
+  flex: 1 1 calc(50% - 20px); /*Ancho adaptable*/
+}
+
+.footer-contact ul {
+  list-style: none; /*Elimina estilo de lista*/
+}
+
+.footer-contact ul li {
+  margin-bottom: 8px; /*Espaciado inferior*/
+}
+
+.logo {
+  height: auto; /*Mantiene proporción de la imagen*/
+  margin: 0; /*Sin margen*/
+  width: 40px; /*Ancho fijo*/
+  height: 40px; /*Alto fijo*/
+}
+
+.carrito {
+  padding: 20px; /*Espaciado interno*/
+  background-color: #fff; /*Fondo blanco*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Sombra para darle profundidad*/
+}
+
+.carrito-items {
+  display: flex; /*Contenedor flexible*/
+  flex-direction: column; /*Elementos en columna*/
+  gap: 20px; /*Espacio entre elementos*/
+}
+
+.carrito-item {
+  display: flex; /*Contenedor flexible*/
+  justify-content: space-between; /*Espacio entre extremos*/
+  padding: 15px; /*Espaciado interno*/
+  border: 1px solid #ddd; /*Borde claro*/
+  border-radius: 5px; /*Bordes redondeados*/
+  background-color: #f9f9f9; /*Fondo claro*/
+}
+
+.carrito-item img {
+  width: 80px; /*Ancho fijo*/
+  height: 80px; /*Alto fijo*/
+  object-fit: cover; /*Escala proporcional*/
+  border-radius: 5px; /*Bordes redondeados*/
+}
+
+.carrito-details {
+  flex: 1; /*Ocupa espacio restante*/
+  padding: 0 20px; /*Espaciado interno lateral*/
+  display: flex; /*Contenedor flexible*/
+  flex-direction: column; /*Elementos en columna*/
+  justify-content: center; /*Centra contenido verticalmente*/
+}
+
+.carrito-actions {
+  display: flex; /*Contenedor flexible*/
+  align-items: center; /*Centra elementos verticalmente*/
+  justify-content: center; /*Centra contenido horizontalmente*/
+}
+
+.btn {
+  padding: 10px 20px; /*Espaciado interno*/
+  background-color: #d87c00; /*Fondo naranja*/
+  color: white; /*Texto blanco*/
+  border: none; /*Sin borde*/
+  border-radius: 3px; /*Bordes redondeados*/
+  cursor: pointer; /*Manito en el cursor*/
+  text-decoration: none; /*Sin subrayado*/
+  display: inline-block; /*Mantiene comportamiento de botón*/
+}
+
+.btn:hover {
+  background-color: #fcc276bb; /*Fondo más claro al pasar el cursor*/
 }
 
 .carrito-total {
-  margin-top: 30px;
-  text-align: right;
-  font-size: 18px;
+  margin-top: 30px; /*Espaciado superior*/
+  text-align: right; /*Texto alineado a la derecha*/
+  font-size: 18px; /*Tamaño de fuente*/
 }
-
-
