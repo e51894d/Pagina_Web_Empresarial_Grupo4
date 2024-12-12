@@ -1,212 +1,213 @@
-/* General Reset */
-* {
-  margin: 0; /* Elimina los márgenes predeterminados */
-  padding: 0; /* Elimina el relleno predeterminado */
-  box-sizing: border-box; /* Incluye los bordes y el padding en las dimensiones totales del elemento */
+/*General Reset*/
+*{
+  margin: 0; /*Elimina los márgenes predeterminados*/
+  padding: 0; /*Elimina el relleno predeterminado*/
+  box-sizing: border-box; /*Incluye los bordes y el padding en las dimensiones totales del elemento*/
 }
 
-/* Header */
+/*Header*/
 header {
-  background-color: #333; /* Fondo oscuro */
-  color: white; /* Texto en blanco */
-  padding: 10px 0; /* Espaciado vertical interno */
+  background-color: #333; /*Fondo oscuro*/
+  color: white; /*Texto en blanco*/
+  padding: 10px 0; /*Espaciado vertical interno*/
 }
 
 h1 {
-  text-align: center; /* Centra el título principal del header */
+  text-align: center; /*Centra el título principal del header*/
 }
 
-/* Navegación */
+/*Navegación*/
 nav {
-  display: flex; /* Crea una disposición flexible para los elementos */
-  justify-content: space-between; /* Separa los elementos extremos de la barra de navegación */
-  align-items: center; /* Alinea los elementos verticalmente en el centro */
-  max-width: 1200px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centra horizontalmente el contenedor */
+  display: flex; /*Crea una disposición flexible para los elementos*/
+  justify-content: space-between; /*Separa los elementos extremos de la barra de navegación*/
+  align-items: center; /*Alinea los elementos verticalmente en el centro*/
+  max-width: 1200px; /*Ancho máximo del contenedor*/
+  margin: 0 auto; /*Centra horizontalmente el contenedor*/
 }
 
 .nav-links {
-  list-style: none; /* Elimina los puntos de la lista */
-  display: flex; /* Alinea los enlaces horizontalmente */
+  list-style: none; /*Elimina los puntos de la lista*/
+  display: flex; /*Alinea los enlaces horizontalmente*/
 }
 
 .nav-links li {
-  margin: 0 15px; /* Espaciado entre los enlaces */
+  margin: 0 15px; /*Espaciado entre los enlaces*/
 }
 
 .nav-links a {
-  text-decoration: none; /* Elimina el subrayado de los enlaces */
-  color: white; /* Texto en blanco */
-  font-size: 16px; /* Tamaño de fuente de los enlaces */
+  text-decoration: none; /*Elimina el subrayado de los enlaces*/
+  color: white; /*Texto en blanco*/
+  font-size: 16px; /*Tamaño de fuente de los enlaces*/
 }
 
-/* Contenedor principal */
+/*Contenedor principal*/
 .container {
-  max-width: 1200px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centra horizontalmente */
-  padding: 20px; /* Espaciado interno */
+  max-width: 1200px; /*Ancho máximo del contenedor*/
+  margin: 0 auto; /*Centra horizontalmente*/
+  padding: 20px; /*Espaciado interno*/
 }
 
-/* Formulario de contacto */
+/*Formulario de contacto*/
 .contact-form {
-  display: flex; /* Alinea el formulario y los detalles de contacto en línea */
-  justify-content: space-between; /* Separa los elementos principales */
-  margin-top: 40px; /* Espaciado superior */
+  display: flex; /*Alinea el formulario y los detalles de contacto en línea*/
+  justify-content: space-between; /*Separa los elementos principales*/
+  margin-top: 40px; /*Espaciado superior*/
 }
 
 .contact-details {
-  flex: 1; /* Ocupa una parte proporcional del espacio disponible */
-  margin-right: 20px; /* Espaciado entre los detalles y el formulario */
+  flex: 1; /*Ocupa una parte proporcional del espacio disponible*/
+  margin-right: 20px; /*Espaciado entre los detalles y el formulario*/
 }
 
 .contact-details h3 {
-  font-size: 1.5rem; /* Tamaño de fuente más grande para los títulos */
-  margin-bottom: 10px; /* Espaciado inferior */
+  font-size: 1.5rem; /*Tamaño de fuente más grande para los títulos*/
+  margin-bottom: 10px; /*Espaciado inferior*/
 }
 
 .contact-details p {
-  margin-bottom: 10px; /* Espaciado entre párrafos */
+  margin-bottom: 10px; /*Espaciado entre párrafos*/
 }
 
 .contact-details a {
-  color: #007BFF; /* Color azul para los enlaces */
-  text-decoration: none; /* Sin subrayado */
+  color: #007BFF; /*Color azul para los enlaces*/
+  text-decoration: none; /*Sin subrayado*/
 }
 
 .contact-details a:hover {
-  text-decoration: underline; /* Subrayado al pasar el ratón por encima */
+  text-decoration: underline; /*Subrayado al pasar el ratón por encima*/
 }
 
 .contact-details .social-icons a {
-  margin-right: 10px; /* Espaciado entre íconos */
-  font-size: 1.5rem; /* Tamaño de fuente para los íconos */
-  color: #555; /* Color gris para los íconos */
+  margin-right: 10px; /*Espaciado entre íconos*/
+  font-size: 1.5rem; /*Tamaño de fuente para los íconos*/
+  color: #555; /*Color gris para los íconos*/
 }
 
 form {
-  flex: 1; /* Ocupa una parte proporcional del espacio disponible */
-  background: #fff; /* Fondo blanco */
-  padding: 20px; /* Espaciado interno */
-  border: 1px solid #ddd; /* Borde gris claro */
-  border-radius: 8px; /* Bordes redondeados */
+  flex: 1; /*Ocupa una parte proporcional del espacio disponible*/
+  background: #fff; /*Fondo blanco*/
+  padding: 20px; /*Espaciado interno*/
+  border: 1px solid #ddd; /*Borde gris claro*/
+  border-radius: 8px; /*Bordes redondeados*/
 }
 
 form h2 {
-  text-align: center; /* Centra el título del formulario */
+  text-align: center; /*Centra el título del formulario*/
 }
 
 form input, form select, form textarea {
-  width: 90%; /* Ancho relativo al contenedor */
-  padding: 10px; /* Espaciado interno */
-  margin: 15px 0; /* Espaciado vertical entre los campos */
-  border: 1px solid #ddd; /* Borde gris claro */
-  border-radius: 5px; /* Bordes redondeados */
-  font-size: 1rem; /* Tamaño de fuente */
+  width: 90%; /*Ancho relativo al contenedor*/
+  padding: 10px; /*Espaciado interno*/
+  margin: 15px 0; /*Espaciado vertical entre los campos*/
+  border: 1px solid #ddd; /*Borde gris claro*/
+  border-radius: 5px; /*Bordes redondeados*/
+  font-size: 1rem; /*Tamaño de fuente*/
 }
 
 textarea {
-  resize: none; /* Impide que el usuario redimensione el área de texto */
+  resize: none; /*Impide que el usuario redimensione el área de texto*/
 }
 
 form button {
-  width: 100%; /* Ancho completo */
-  padding: 10px; /* Espaciado interno */
-  background: #f90; /* Fondo naranja */
-  border: none; /* Sin bordes */
-  border-radius: 5px; /* Bordes redondeados */
-  color: #fff; /* Texto blanco */
-  font-size: 1rem; /* Tamaño de fuente */
-  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  width: 100%; /*Ancho completo*/
+  padding: 10px; /*Espaciado interno*/
+  background: #f90; /*Fondo naranja*/
+  border: none; /*Sin bordes*/
+  border-radius: 5px; /*Bordes redondeados*/
+  color: #fff; /*Texto blanco*/
+  font-size: 1rem; /*Tamaño de fuente*/
+  cursor: pointer; /*Cambia el cursor a una mano al pasar por encima*/
 }
 
 form button:hover {
-  background: #d87c00; /* Fondo más oscuro al pasar el ratón */
+  background: #d87c00; /*Fondo más oscuro al pasar el ratón*/
 }
 
-/* Sección de ubicaciones */
+/*Sección de ubicaciones*/
 .locations {
-  margin-top: 40px; /* Espaciado superior */
-  display: flex; /* Alinea las ubicaciones horizontalmente */
-  justify-content: space-between; /* Espaciado uniforme entre las ubicaciones */
+  margin-top: 40px; /*Espaciado superior*/
+  display: flex; /*Alinea las ubicaciones horizontalmente*/
+  justify-content: space-between; /*Espaciado uniforme entre las ubicaciones*/
 }
 
 .location {
-  flex: 1; /* Cada ubicación ocupa una parte proporcional del espacio */
-  background: #fff; /* Fondo blanco */
-  border: 1px solid #ddd; /* Borde gris claro */
-  border-radius: 8px; /* Bordes redondeados */
-  padding: 20px; /* Espaciado interno */
-  margin-right: 20px; /* Espaciado entre ubicaciones */
-  text-align: center; /* Centra el contenido */
+  flex: 1; /*Cada ubicación ocupa una parte proporcional del espacio*/
+  background: #fff; /*Fondo blanco*/
+  border: 1px solid #ddd; /*Borde gris claro*/
+  border-radius: 8px; /*Bordes redondeados*/
+  padding: 20px; /*Espaciado interno*/
+  margin-right: 20px; /*Espaciado entre ubicaciones*/
+  text-align: center; /*Centra el contenido*/
 }
 
 .location:last-child {
-  margin-right: 0; /* Elimina el margen derecho del último elemento */
+  margin-right: 0; /*Elimina el margen derecho del último elemento*/
 }
 
 .location img {
-  max-width: 100%; /* Escala las imágenes para que no excedan el contenedor */
-  height: auto; /* Mantiene la proporción de las imágenes */
-  border-radius: 8px; /* Bordes redondeados */
+  max-width: 100%; /*Escala las imágenes para que no excedan el contenedor*/
+  height: auto; /*Mantiene la proporción de las imágenes*/
+  border-radius: 8px; /*Bordes redondeados*/
 }
 
 .location h4 {
-  margin-top: 10px; /* Espaciado superior */
-  font-size: 1.2rem; /* Tamaño de fuente para el título */
-  color: #333; /* Color del texto */
+  margin-top: 10px; /*Espaciado superior*/
+  font-size: 1.2rem; /*Tamaño de fuente para el título*/
+  color: #333; /*Color del texto*/
 }
 
 .location p {
-  margin-top: 5px; /* Espaciado superior */
-  color: #666; /* Texto gris claro */
+  margin-top: 5px; /*Espaciado superior*/
+  color: #666; /*Texto gris claro*/
 }
 
-/* Footer */
+/*Footer*/
 footer {
-  background-color: #a39a8d; /* Fondo beige */
-  color: white; /* Texto blanco */
-  padding: 40px 20px; /* Espaciado interno */
-  text-align: center; /* Centra el texto */
+  background-color: #a39a8d; /*Fondo beige*/
+  color: white; /*Texto blanco*/
+  padding: 40px 20px; /*Espaciado interno*/
+  text-align: center; /*Centra el texto*/
 }
+
 
 .footer-content {
-  font-family: "Merriweather"; /* Fuente personalizada */
-  font-size: 15px; /* Tamaño de fuente */
-  display: flex; /* Disposición flexible */
-  justify-content: space-between; /* Espaciado uniforme entre las secciones */
-  max-width: 1200px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centra horizontalmente el contenedor */
-  padding: 0 20px; /* Espaciado interno horizontal */
+  font-family: "Merriweather"; /*Fuente personalizada*/
+  font-size: 15px; /*Tamaño de fuente*/
+  display: flex; /*Disposición flexible*/
+  justify-content: space-between; /*Espaciado uniforme entre las secciones*/
+  max-width: 1200px; /*Ancho máximo del contenedor*/
+  margin: 0 auto; /*Centra horizontalmente el contenedor*/
+  padding: 0 20px; /*Espaciado interno horizontal*/
 }
 
 .footer-info, .footer-contact {
-  width: 30%; /* Cada sección ocupa un 30% del ancho disponible */
+  width: 30%; /*Cada sección ocupa un 30% del ancho disponible*/
 }
 
 .footer-info h3, .footer-contact h4 {
-  margin-bottom: 10px; /* Espaciado inferior */
+  margin-bottom: 10px; /*Espaciado inferior*/
 }
 
 .footer-contact ul {
-  list-style: none; /* Elimina los puntos de la lista */
+  list-style: none; /*Elimina los puntos de la lista*/
 }
 
 .footer-contact ul li {
-  margin-bottom: 8px; /* Espaciado entre elementos de la lista */
+  margin-bottom: 8px; /*Espaciado entre elementos de la lista*/
 }
 
 copyright {
-  margin-top: 20px; /* Espaciado superior */
-  font-size: 14px; /* Tamaño de fuente */
+  margin-top: 20px; /*Espaciado superior*/
+  font-size: 14px; /*Tamaño de fuente*/
 }
 
-/* Política de privacidad */
+/*Política de privacidad*/
 .politica {
-  display: flex; /* Disposición flexible */
-  align-items: center; /* Alinea verticalmente los elementos */
-  justify-content: space-around; /* Espaciado uniforme entre los elementos */
+  display: flex; /*Disposición flexible*/
+  align-items: center; /*Alinea verticalmente los elementos*/
+  justify-content: space-around; /*Espaciado uniforme entre los elementos*/
 }
 
 .politica input {
-  width: 20px; /* Tamaño del checkbox */
+  width: 20px; /*Tamaño del checkbox*/
 }

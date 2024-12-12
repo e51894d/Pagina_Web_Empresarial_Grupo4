@@ -71,6 +71,10 @@ nav {
 .productos {
   padding: 60px 20px;
   text-align: center;
+  margin-left: 95px;
+  margin-right: 95px;
+
+
 }
 
 .productos .section-title {
@@ -114,6 +118,8 @@ nav {
   background-color: #f4f4f4;
   padding: 60px 20px;
   text-align: center;
+  
+  
 }
 
 .ofertas .section-title {
@@ -126,6 +132,7 @@ nav {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  
 }
 
 .oferta-item {
