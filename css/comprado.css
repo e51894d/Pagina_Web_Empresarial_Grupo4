@@ -238,6 +238,7 @@
   
   height: auto; /* Mantiene la proporción */
   margin: 0; /* Elimina márgenes innecesarios */
-
+  width: 40px;
+  height: 40px;
 
 }
